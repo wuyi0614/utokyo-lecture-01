@@ -44,4 +44,11 @@ pipenv install
 
 ### Use jupyter notebook to follow the tutorial
 
-Replicable results are shown in the notebook named `tutorial.ipynb`. 
+Replicable results are shown in the notebook named `tutorial-classification-001.ipynb`. 
+To start the notebook, you can run the following codes:
+
+```bash
+jupyter notebook --ip localhost --port 8888 --allow-root
+```
+
+Then, a jupyter notebook env will be launched and you could easily load the notebook to run the tutorial codes. 
